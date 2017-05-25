@@ -295,7 +295,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'EuKhJts4Rr9n7yzXHqwObARKR-LXzLboU998I2eqPCn7kJam_KeDRXofnuLZcfbIUQaZ0TftWA';
+$settings['hash_salt'] = 'l18ONopLpiTTrcH-7rjY-Tw8ngz6b4ZVLAFe3cz0QeLMSJqhaGcDMclpWqWPbKevb1BPww0Dfw';
 
 /**
  * Deployment identifier.
@@ -765,13 +765,13 @@ $settings['file_scan_ignore_directories'] = [
 # }
 $databases['default']['default'] = array (
   'database' => 'eliot_database',
-  'username' => 'database_admin',
+  'username' => 'eliotcarlsen',
   'password' => 'everest1',
   'prefix' => '',
   'host' => 'localhost',
-  'port' => '8889',
+  'port' => '3306',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_emSqorIn90rxl3eEj1z34sdVhhAAPCnIhvflN0uuelS3gISck6gNmWgVddIf7brJMmNWZgkgvQ/sync';
+$config_directories['sync'] = 'sites/default/files/config_DuRLtIcIthqdY6TG_MjvN81GMoGkAbOvCgVRwN-M8oy3behMOL13-bWyTLGs6NACDiGJEqfxpg/sync';

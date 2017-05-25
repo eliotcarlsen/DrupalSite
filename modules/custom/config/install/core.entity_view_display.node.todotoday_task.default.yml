@@ -1,0 +1,45 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.todotoday_task.body
+    - field.field.node.todotoday_task.field_due_date
+    - field.field.node.todotoday_task.field_status
+    - node.type.todotoday_task
+  module:
+    - datetime
+    - options
+    - text
+    - user
+id: node.todotoday_task.default
+targetEntityType: node
+bundle: todotoday_task
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_due_date:
+    weight: 103
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_status:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }
